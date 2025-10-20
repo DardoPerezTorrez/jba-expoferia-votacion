@@ -70,7 +70,9 @@ export default function Votacion({ cursoId, initialVotos, initialEstrellas, nomb
 
   return (
     <div className="w-full max-w-lg p-6 bg-white rounded-xl shadow-2xl">
-      
+         <p className="text-center text-4xl font-black text-yellow-500 mt-6 mb-4 leading-tight">
+                    ¡CALIFÍCANOS! 🌟
+                </p>
       {/* Contador Actual: Muestra la SUMA TOTAL de Estrellas */}
       <div className="flex justify-center items-center mb-6 p-4 bg-green-50 rounded-lg border-l-4 border-green-500">
         <div className="text-center">

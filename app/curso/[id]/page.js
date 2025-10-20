@@ -91,11 +91,13 @@ export default async function CursoPage({ params }) {
                         asd⬇️ Descargar Tríptico
                     </a>
                 )}
-
+   
             </section>
 
             {/* 3. Componente de Votación (Cliente) */}
+         
             <Votacion 
+            
                 cursoId={cursoData.id} 
                 nombreCurso={cursoData.nombre}
                 initialVotos={cursoData.totalVotos}
